@@ -10,10 +10,9 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    @IBOutlet weak var userLoginField: UITextField!
    
+    @IBOutlet weak var userLoginField: UITextField!    
     @IBOutlet weak var userPasswordField: UITextField!
-    
     
 //    var name = "Samaneh"
 
@@ -33,8 +32,9 @@ class LoginViewController: UIViewController {
         let userEmail = userLoginField.text;
         let userPassword = userPasswordField.text;
         
-        if ((userEmail.isEmpty)! || userPassword.isEmpty){
-            displayMyAlertMessage("All fields are required");
+        
+        if (userEmail == "" || userPassword == "" ){
+            displayMyAlertMessage(userMessage: "All fields are required");
             return;
         }
     }
@@ -43,11 +43,12 @@ class LoginViewController: UIViewController {
 //    }
 
     func displayMyAlertMessage(userMessage:String){
-        var myAlert = UIAlertController(title:"Alert", message:userMessage, preferredStyle: UIAlertControllerStyle.alert);
-        let okAction = UIAlertAction(title:"OK", style:UIAlertActionStyle.Default, handler:nil);
+        let myAlert = UIAlertController(title:"Alert", message:userMessage, preferredStyle: UIAlertControllerStyle.alert);
+        let okAction = UIAlertAction(title:"OK", style: .cancel, handler:nil);
         
-        myAlert.addAction(okAction);
-        self.presentedViewController(myAlert, animated:true, completion:nil);
+//        myAlert.addAction(okAction);
+        myAlert.addAction(okAction)
+        self.present(myAlert, animated:true, completion:nil);
     }
 }
 
