@@ -32,16 +32,21 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func LoginButtonTapped(_ sender: AnyObject) {
-        let userEmail = userLoginField.text;
-        let userPassword = userPasswordField.text;
-        label.text = label.text;
+   
         
         
-        if (userEmail == "" || userPassword == "" ){
+        if (userEmail == "" || userPasswordField == "" ){
             displayMyAlertMessage(userMessage: "All fields are required");
             return;
         }
+        
+        
     }
+
+//    @IBAction func SaveData(_ sender: Any) {
+//        let UserDefaults = NSUuUserDefaults
+//    }
+ 
     //    override func viewDidAppear(_ animated: Bool) {
 //        self.performSegue(withIdentifier: "openNotification", sender: self);
 //    }

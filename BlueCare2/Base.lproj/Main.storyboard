@@ -42,29 +42,31 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1li-r3-2KS">
-                                <rect key="frame" x="152" y="318" width="46" height="30"/>
-                                <state key="normal" title="Login">
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="LoginButtonTapped:" destination="aev-Su-fBE" eventType="touchUpInside" id="hon-M0-WWU"/>
-                                    <segue destination="TbS-KQ-GPR" kind="presentation" identifier="openNotification" id="hGD-Vi-6cU"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwi-7F-mbb">
                                 <rect key="frame" x="24" y="171" width="74" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkW-c7-8rV">
-                                <rect key="frame" x="152" y="407" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="user Email val" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-Es-vFE">
+                                <rect key="frame" x="156" y="430" width="105" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1li-r3-2KS">
+                                <rect key="frame" x="156" y="323" width="46" height="27"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="LoginButtonTapped:" destination="aev-Su-fBE" eventType="touchUpInside" id="y1U-5y-kwM"/>
+                                    <action selector="SaveData:" destination="aev-Su-fBE" eventType="touchUpInside" id="Y7R-CW-Xh3"/>
+                                    <action selector="saveAct:" destination="aev-Su-fBE" eventType="touchUpInside" id="HXV-bx-joa"/>
+                                    <segue destination="TbS-KQ-GPR" kind="presentation" identifier="openNotification" id="hGD-Vi-6cU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -89,7 +91,6 @@
                         <viewLayoutGuide key="safeArea" id="WlR-Gu-KyX"/>
                     </view>
                     <connections>
-                        <outlet property="label" destination="mkW-c7-8rV" id="MYF-KQ-i3z"/>
                         <outlet property="userLoginField" destination="X6S-77-UyI" id="u3A-Mr-AnO"/>
                         <outlet property="userPasswordField" destination="Yzd-42-aQ1" id="DFJ-gK-mgW"/>
                     </connections>
