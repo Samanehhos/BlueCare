@@ -58,6 +58,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkW-c7-8rV">
+                                <rect key="frame" x="152" y="407" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -82,6 +89,7 @@
                         <viewLayoutGuide key="safeArea" id="WlR-Gu-KyX"/>
                     </view>
                     <connections>
+                        <outlet property="label" destination="mkW-c7-8rV" id="MYF-KQ-i3z"/>
                         <outlet property="userLoginField" destination="X6S-77-UyI" id="u3A-Mr-AnO"/>
                         <outlet property="userPasswordField" destination="Yzd-42-aQ1" id="DFJ-gK-mgW"/>
                     </connections>

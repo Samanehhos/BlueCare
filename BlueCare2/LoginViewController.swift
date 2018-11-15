@@ -14,6 +14,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var userLoginField: UITextField!    
     @IBOutlet weak var userPasswordField: UITextField!
     
+    @IBOutlet weak var label: UILabel!
+    
+    
 //    var name = "Samaneh"
 
     override func viewDidLoad() {
@@ -31,6 +34,7 @@ class LoginViewController: UIViewController {
     @IBAction func LoginButtonTapped(_ sender: AnyObject) {
         let userEmail = userLoginField.text;
         let userPassword = userPasswordField.text;
+        label.text = label.text;
         
         
         if (userEmail == "" || userPassword == "" ){
