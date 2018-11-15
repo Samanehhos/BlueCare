@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C909D5B621979F5600241654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909D5B521979F5600241654 /* AppDelegate.swift */; };
+		C909D5B821979F5600241654 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909D5B721979F5600241654 /* LoginViewController.swift */; };
+		C909D5BB21979F5600241654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C909D5B921979F5600241654 /* Main.storyboard */; };
+		C909D5BD21979F5600241654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C909D5BC21979F5600241654 /* Assets.xcassets */; };
+		C909D5C021979F5600241654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C909D5BE21979F5600241654 /* LaunchScreen.storyboard */; };
+		C909D5CB21979F5600241654 /* BlueCare2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909D5CA21979F5600241654 /* BlueCare2Tests.swift */; };
+		C909D5D621979F5600241654 /* BlueCare2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909D5D521979F5600241654 /* BlueCare2UITests.swift */; };
+		C909D5E42197B7E600241654 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909D5E32197B7E600241654 /* NotificationsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C909D5C721979F5600241654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C909D5AA21979F5600241654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C909D5B121979F5600241654;
+			remoteInfo = BlueCare2;
+		};
+		C909D5D221979F5600241654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C909D5AA21979F5600241654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C909D5B121979F5600241654;
+			remoteInfo = BlueCare2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C909D5B221979F5600241654 /* BlueCare2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueCare2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C909D5B521979F5600241654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C909D5B721979F5600241654 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C909D5BA21979F5600241654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C909D5BC21979F5600241654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C909D5BF21979F5600241654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C909D5C121979F5600241654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C909D5C621979F5600241654 /* BlueCare2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueCare2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C909D5CA21979F5600241654 /* BlueCare2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCare2Tests.swift; sourceTree = "<group>"; };
+		C909D5CC21979F5600241654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C909D5D121979F5600241654 /* BlueCare2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueCare2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C909D5D521979F5600241654 /* BlueCare2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCare2UITests.swift; sourceTree = "<group>"; };
+		C909D5D721979F5600241654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C909D5E32197B7E600241654 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C909D5AF21979F5600241654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C909D5C321979F5600241654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C909D5CE21979F5600241654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C909D5A921979F5600241654 = {
+			isa = PBXGroup;
+			children = (
+				C909D5B421979F5600241654 /* BlueCare2 */,
+				C909D5C921979F5600241654 /* BlueCare2Tests */,
+				C909D5D421979F5600241654 /* BlueCare2UITests */,
+				C909D5B321979F5600241654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C909D5B321979F5600241654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C909D5B221979F5600241654 /* BlueCare2.app */,
+				C909D5C621979F5600241654 /* BlueCare2Tests.xctest */,
+				C909D5D121979F5600241654 /* BlueCare2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C909D5B421979F5600241654 /* BlueCare2 */ = {
+			isa = PBXGroup;
+			children = (
+				C909D5B521979F5600241654 /* AppDelegate.swift */,
+				C909D5B721979F5600241654 /* LoginViewController.swift */,
+				C909D5E32197B7E600241654 /* NotificationsViewController.swift */,
+				C909D5B921979F5600241654 /* Main.storyboard */,
+				C909D5BC21979F5600241654 /* Assets.xcassets */,
+				C909D5BE21979F5600241654 /* LaunchScreen.storyboard */,
+				C909D5C121979F5600241654 /* Info.plist */,
+			);
+			path = BlueCare2;
+			sourceTree = "<group>";
+		};
+		C909D5C921979F5600241654 /* BlueCare2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C909D5CA21979F5600241654 /* BlueCare2Tests.swift */,
+				C909D5CC21979F5600241654 /* Info.plist */,
+			);
+			path = BlueCare2Tests;
+			sourceTree = "<group>";
+		};
+		C909D5D421979F5600241654 /* BlueCare2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C909D5D521979F5600241654 /* BlueCare2UITests.swift */,
+				C909D5D721979F5600241654 /* Info.plist */,
+			);
+			path = BlueCare2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C909D5B121979F5600241654 /* BlueCare2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C909D5DA21979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2" */;
+			buildPhases = (
+				C909D5AE21979F5600241654 /* Sources */,
+				C909D5AF21979F5600241654 /* Frameworks */,
+				C909D5B021979F5600241654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueCare2;
+			productName = BlueCare2;
+			productReference = C909D5B221979F5600241654 /* BlueCare2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C909D5C521979F5600241654 /* BlueCare2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C909D5DD21979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2Tests" */;
+			buildPhases = (
+				C909D5C221979F5600241654 /* Sources */,
+				C909D5C321979F5600241654 /* Frameworks */,
+				C909D5C421979F5600241654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C909D5C821979F5600241654 /* PBXTargetDependency */,
+			);
+			name = BlueCare2Tests;
+			productName = BlueCare2Tests;
+			productReference = C909D5C621979F5600241654 /* BlueCare2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C909D5D021979F5600241654 /* BlueCare2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C909D5E021979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2UITests" */;
+			buildPhases = (
+				C909D5CD21979F5600241654 /* Sources */,
+				C909D5CE21979F5600241654 /* Frameworks */,
+				C909D5CF21979F5600241654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C909D5D321979F5600241654 /* PBXTargetDependency */,
+			);
+			name = BlueCare2UITests;
+			productName = BlueCare2UITests;
+			productReference = C909D5D121979F5600241654 /* BlueCare2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C909D5AA21979F5600241654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Seyedeh Samaneh Hoseini";
+				TargetAttributes = {
+					C909D5B121979F5600241654 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C909D5C521979F5600241654 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C909D5B121979F5600241654;
+					};
+					C909D5D021979F5600241654 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C909D5B121979F5600241654;
+					};
+				};
+			};
+			buildConfigurationList = C909D5AD21979F5600241654 /* Build configuration list for PBXProject "BlueCare2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C909D5A921979F5600241654;
+			productRefGroup = C909D5B321979F5600241654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C909D5B121979F5600241654 /* BlueCare2 */,
+				C909D5C521979F5600241654 /* BlueCare2Tests */,
+				C909D5D021979F5600241654 /* BlueCare2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C909D5B021979F5600241654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C909D5C021979F5600241654 /* LaunchScreen.storyboard in Resources */,
+				C909D5BD21979F5600241654 /* Assets.xcassets in Resources */,
+				C909D5BB21979F5600241654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C909D5C421979F5600241654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C909D5CF21979F5600241654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C909D5AE21979F5600241654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C909D5E42197B7E600241654 /* NotificationsViewController.swift in Sources */,
+				C909D5B821979F5600241654 /* LoginViewController.swift in Sources */,
+				C909D5B621979F5600241654 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C909D5C221979F5600241654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C909D5CB21979F5600241654 /* BlueCare2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C909D5CD21979F5600241654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C909D5D621979F5600241654 /* BlueCare2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C909D5C821979F5600241654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C909D5B121979F5600241654 /* BlueCare2 */;
+			targetProxy = C909D5C721979F5600241654 /* PBXContainerItemProxy */;
+		};
+		C909D5D321979F5600241654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C909D5B121979F5600241654 /* BlueCare2 */;
+			targetProxy = C909D5D221979F5600241654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C909D5B921979F5600241654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C909D5BA21979F5600241654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C909D5BE21979F5600241654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C909D5BF21979F5600241654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C909D5D821979F5600241654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C909D5D921979F5600241654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C909D5DB21979F5600241654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlueCare2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blue-Care.BlueCare2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C909D5DC21979F5600241654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlueCare2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blue-Care.BlueCare2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C909D5DE21979F5600241654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlueCare2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blue-Care.BlueCare2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueCare2.app/BlueCare2";
+			};
+			name = Debug;
+		};
+		C909D5DF21979F5600241654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlueCare2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blue-Care.BlueCare2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueCare2.app/BlueCare2";
+			};
+			name = Release;
+		};
+		C909D5E121979F5600241654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlueCare2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blue-Care.BlueCare2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlueCare2;
+			};
+			name = Debug;
+		};
+		C909D5E221979F5600241654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlueCare2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blue-Care.BlueCare2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlueCare2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C909D5AD21979F5600241654 /* Build configuration list for PBXProject "BlueCare2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C909D5D821979F5600241654 /* Debug */,
+				C909D5D921979F5600241654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C909D5DA21979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C909D5DB21979F5600241654 /* Debug */,
+				C909D5DC21979F5600241654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C909D5DD21979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C909D5DE21979F5600241654 /* Debug */,
+				C909D5DF21979F5600241654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C909D5E021979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C909D5E121979F5600241654 /* Debug */,
+				C909D5E221979F5600241654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C909D5AA21979F5600241654 /* Project object */;
+}
