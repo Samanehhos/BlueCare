@@ -34,12 +34,12 @@ class LoginViewController: UIViewController {
     @IBAction func LoginButtonTapped(_ sender: AnyObject) {
    
         
-        
-        if (userEmail == "" || userPasswordField == "" ){
-            displayMyAlertMessage(userMessage: "All fields are required");
-            return;
-        }
-        
+//        
+//        if (userEmail == "" || userPasswordField == "" ){
+//            displayMyAlertMessage(userMessage: "All fields are required");
+//            return;
+//        }
+//        
         
     }
 
