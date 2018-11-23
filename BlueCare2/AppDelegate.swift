@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                        Messaging.messaging().delegate = self
 //                        application.registerForRemoteNotifications()
 //
-//                        FirebaseApp.configure()
+                        FirebaseApp.configure()
 //                    }
             
 //
