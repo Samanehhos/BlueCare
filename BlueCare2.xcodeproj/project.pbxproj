@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01DCF94A21A7445200C79D1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01DCF94921A7445200C79D1D /* GoogleService-Info.plist */; };
+		01DCF94C21A7484E00C79D1D /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCF94B21A7484E00C79D1D /* FirebaseReference.swift */; };
+		4D3005D32CB5CEA41325D405 /* Pods_BlueCare2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E171965F3D46E310346A7A /* Pods_BlueCare2UITests.framework */; };
+		6A8A05A2311009D887DAC42E /* Pods_BlueCare2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B57987741C51C384B4CBF02 /* Pods_BlueCare2Tests.framework */; };
+		8D6420547D4FC445FF491955 /* Pods_BlueCare2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815A911471A07D09BC1B00D2 /* Pods_BlueCare2.framework */; };
 		C909D5B621979F5600241654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909D5B521979F5600241654 /* AppDelegate.swift */; };
 		C909D5B821979F5600241654 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909D5B721979F5600241654 /* LoginViewController.swift */; };
 		C909D5BB21979F5600241654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C909D5B921979F5600241654 /* Main.storyboard */; };
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012B750D21A6385C00734346 /* BlueCare2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueCare2.entitlements; sourceTree = "<group>"; };
+		01DCF94921A7445200C79D1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		01DCF94B21A7484E00C79D1D /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		2E655397FDDC24B8F8C7F69C /* Pods-BlueCare2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCare2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCare2UITests/Pods-BlueCare2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		49E171965F3D46E310346A7A /* Pods_BlueCare2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueCare2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C65ADBAC7C78675E43564E2 /* Pods-BlueCare2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCare2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCare2Tests/Pods-BlueCare2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D2E4A3D58F11233840F5C64 /* Pods-BlueCare2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCare2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCare2UITests/Pods-BlueCare2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		815A911471A07D09BC1B00D2 /* Pods_BlueCare2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueCare2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B57987741C51C384B4CBF02 /* Pods_BlueCare2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueCare2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65CDEBCCE4F095C4D3B095D /* Pods-BlueCare2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCare2.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCare2/Pods-BlueCare2.release.xcconfig"; sourceTree = "<group>"; };
 		C909D5B221979F5600241654 /* BlueCare2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueCare2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C909D5B521979F5600241654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C909D5B721979F5600241654 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,8 @@
 		C909D5D521979F5600241654 /* BlueCare2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCare2UITests.swift; sourceTree = "<group>"; };
 		C909D5D721979F5600241654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C909D5E32197B7E600241654 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		DA4F4551D0AD58E6D7DF774D /* Pods-BlueCare2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCare2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCare2Tests/Pods-BlueCare2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E56C522CA332DD6D576ADDA0 /* Pods-BlueCare2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCare2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCare2/Pods-BlueCare2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6420547D4FC445FF491955 /* Pods_BlueCare2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8A05A2311009D887DAC42E /* Pods_BlueCare2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3005D32CB5CEA41325D405 /* Pods_BlueCare2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD944D4F9DEE9F915571EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				815A911471A07D09BC1B00D2 /* Pods_BlueCare2.framework */,
+				9B57987741C51C384B4CBF02 /* Pods_BlueCare2Tests.framework */,
+				49E171965F3D46E310346A7A /* Pods_BlueCare2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CD0AF2E911AC8B0D5DB412F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E56C522CA332DD6D576ADDA0 /* Pods-BlueCare2.debug.xcconfig */,
+				A65CDEBCCE4F095C4D3B095D /* Pods-BlueCare2.release.xcconfig */,
+				DA4F4551D0AD58E6D7DF774D /* Pods-BlueCare2Tests.debug.xcconfig */,
+				5C65ADBAC7C78675E43564E2 /* Pods-BlueCare2Tests.release.xcconfig */,
+				6D2E4A3D58F11233840F5C64 /* Pods-BlueCare2UITests.debug.xcconfig */,
+				2E655397FDDC24B8F8C7F69C /* Pods-BlueCare2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C909D5A921979F5600241654 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				C909D5C921979F5600241654 /* BlueCare2Tests */,
 				C909D5D421979F5600241654 /* BlueCare2UITests */,
 				C909D5B321979F5600241654 /* Products */,
+				6CD0AF2E911AC8B0D5DB412F /* Pods */,
+				0CD944D4F9DEE9F915571EF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +144,8 @@
 		C909D5B421979F5600241654 /* BlueCare2 */ = {
 			isa = PBXGroup;
 			children = (
+				01DCF94921A7445200C79D1D /* GoogleService-Info.plist */,
+				012B750D21A6385C00734346 /* BlueCare2.entitlements */,
 				C909D5B521979F5600241654 /* AppDelegate.swift */,
 				C909D5B721979F5600241654 /* LoginViewController.swift */,
 				C909D5E32197B7E600241654 /* NotificationsViewController.swift */,
@@ -106,6 +153,7 @@
 				C909D5BC21979F5600241654 /* Assets.xcassets */,
 				C909D5BE21979F5600241654 /* LaunchScreen.storyboard */,
 				C909D5C121979F5600241654 /* Info.plist */,
+				01DCF94B21A7484E00C79D1D /* FirebaseReference.swift */,
 			);
 			path = BlueCare2;
 			sourceTree = "<group>";
@@ -135,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C909D5DA21979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2" */;
 			buildPhases = (
+				120A47156F043E446D959309 /* [CP] Check Pods Manifest.lock */,
 				C909D5AE21979F5600241654 /* Sources */,
 				C909D5AF21979F5600241654 /* Frameworks */,
 				C909D5B021979F5600241654 /* Resources */,
+				8091394CA44D87E84775F6DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C909D5DD21979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2Tests" */;
 			buildPhases = (
+				A194347F9B27D0C846D92A30 /* [CP] Check Pods Manifest.lock */,
 				C909D5C221979F5600241654 /* Sources */,
 				C909D5C321979F5600241654 /* Frameworks */,
 				C909D5C421979F5600241654 /* Resources */,
@@ -170,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C909D5E021979F5600241654 /* Build configuration list for PBXNativeTarget "BlueCare2UITests" */;
 			buildPhases = (
+				813AED7CAA1EAB21A8925B72 /* [CP] Check Pods Manifest.lock */,
 				C909D5CD21979F5600241654 /* Sources */,
 				C909D5CE21979F5600241654 /* Frameworks */,
 				C909D5CF21979F5600241654 /* Resources */,
@@ -197,6 +249,14 @@
 					C909D5B121979F5600241654 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					C909D5C521979F5600241654 = {
 						CreatedOnToolsVersion = 9.1;
@@ -236,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C909D5C021979F5600241654 /* LaunchScreen.storyboard in Resources */,
+				01DCF94A21A7445200C79D1D /* GoogleService-Info.plist in Resources */,
 				C909D5BD21979F5600241654 /* Assets.xcassets in Resources */,
 				C909D5BB21979F5600241654 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +318,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		120A47156F043E446D959309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueCare2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8091394CA44D87E84775F6DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BlueCare2/Pods-BlueCare2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueCare2/Pods-BlueCare2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813AED7CAA1EAB21A8925B72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueCare2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A194347F9B27D0C846D92A30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueCare2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C909D5AE21979F5600241654 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +420,7 @@
 			files = (
 				C909D5E42197B7E600241654 /* NotificationsViewController.swift in Sources */,
 				C909D5B821979F5600241654 /* LoginViewController.swift in Sources */,
+				01DCF94C21A7484E00C79D1D /* FirebaseReference.swift in Sources */,
 				C909D5B621979F5600241654 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,9 +589,12 @@
 		};
 		C909D5DB21979F5600241654 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56C522CA332DD6D576ADDA0 /* Pods-BlueCare2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BlueCare2/BlueCare2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4V6L863U;
 				INFOPLIST_FILE = BlueCare2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -447,9 +607,12 @@
 		};
 		C909D5DC21979F5600241654 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65CDEBCCE4F095C4D3B095D /* Pods-BlueCare2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BlueCare2/BlueCare2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX4V6L863U;
 				INFOPLIST_FILE = BlueCare2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -462,6 +625,7 @@
 		};
 		C909D5DE21979F5600241654 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4F4551D0AD58E6D7DF774D /* Pods-BlueCare2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +642,7 @@
 		};
 		C909D5DF21979F5600241654 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C65ADBAC7C78675E43564E2 /* Pods-BlueCare2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +659,7 @@
 		};
 		C909D5E121979F5600241654 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2E4A3D58F11233840F5C64 /* Pods-BlueCare2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +675,7 @@
 		};
 		C909D5E221979F5600241654 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E655397FDDC24B8F8C7F69C /* Pods-BlueCare2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
