@@ -1,11 +1,11 @@
+////
+////  FirebaseReference.swift
+////  BlueCare2
+////
+////  Created by Samantha Hoseini on 2018-11-22.
+////  Copyright © 2018 Seyedeh Samaneh Hoseini. All rights reserved.
+////
 //
-//  FirebaseReference.swift
-//  BlueCare2
-//
-//  Created by Samantha Hoseini on 2018-11-22.
-//  Copyright © 2018 Seyedeh Samaneh Hoseini. All rights reserved.
-//
-
 //import Foundation
 //import Firebase
 //import FirebaseDatabase
