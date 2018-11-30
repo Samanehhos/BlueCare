@@ -9,18 +9,39 @@
 import UIKit
 
 
+
+
 class NotificationsViewController: UIViewController {
 
+    @IBOutlet weak var sideMenuConstraint: NSLayoutConstraint!
+    var sideMenuOpen = false
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        NotificationCenter.default.addObserver(self,
+                                                selector: #selector(toggleSideMenu),
+                                                name: NSNotification.Name("ToggleSlideMenu"),
+                                                object: nil)
+        
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func toggleSideMenu(){
+        if sideMenuOpen {
+            sideMenuOpen = false
+            sideMenuConstraint.constant = -240
+        } else {
+            sideMenuOpen = true
+            sideMenuConstraint.constant = 0
+        }
     }
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
 
 
     /*

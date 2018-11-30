@@ -48,13 +48,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="user Email val" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-Es-vFE">
-                                <rect key="frame" x="156" y="430" width="105" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1li-r3-2KS">
                                 <rect key="frame" x="156" y="323" width="46" height="27"/>
                                 <state key="normal" title="Login">
@@ -100,7 +93,7 @@
         <!--Notification Page-->
         <scene sceneID="4YK-ti-XzM">
             <objects>
-                <viewController title="Notification Page" id="TbS-KQ-GPR" sceneMemberID="viewController">
+                <viewController title="Notification Page" id="TbS-KQ-GPR" customClass="MainVC" customModule="BlueCare2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DWd-RQ-ndV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,9 +186,13 @@
                             <constraint firstItem="BeQ-sQ-zfX" firstAttribute="bottom" secondItem="WEn-bV-Uif" secondAttribute="bottom" id="hhb-6J-Vdq"/>
                             <constraint firstItem="BeQ-sQ-zfX" firstAttribute="top" secondItem="DWd-RQ-ndV" secondAttribute="top" id="mGM-sd-QPz"/>
                             <constraint firstItem="Y0F-rr-uor" firstAttribute="leading" secondItem="WEn-bV-Uif" secondAttribute="leading" id="tTD-3d-25m"/>
+                            <constraint firstItem="Y0F-rr-uor" firstAttribute="width" secondItem="DWd-RQ-ndV" secondAttribute="width" id="wjD-5d-g4b"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WEn-bV-Uif"/>
                     </view>
+                    <connections>
+                        <outlet property="sideMenuConstraint" destination="tTD-3d-25m" id="czV-v8-DX3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Pk-SB-IDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -204,7 +201,7 @@
         <!--Table View Controller-->
         <scene sceneID="pI1-jd-bG9">
             <objects>
-                <tableViewController id="S2z-e0-IM1" sceneMemberID="viewController">
+                <tableViewController id="S2z-e0-IM1" colorLabel="IBBuiltInLabel-Green" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="232-4B-Cql">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -276,6 +273,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -289,24 +287,24 @@
             </objects>
             <point key="canvasLocation" x="2341" y="870"/>
         </scene>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="Lq1-80-c1U">
             <objects>
-                <viewController id="8kQ-AO-nt0" sceneMemberID="viewController">
+                <viewController id="8kQ-AO-nt0" customClass="MainVC" customModule="BlueCare2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mWW-4y-Met">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UP0-pT-kIx">
-                                <rect key="frame" x="127" y="192" width="121" height="30"/>
+                                <rect key="frame" x="130" y="192" width="116" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Show other menu"/>
+                                <state key="normal" title="Show other View"/>
                                 <connections>
                                     <segue destination="43D-n9-Hj0" kind="show" id="SIQ-Oy-Vx6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is main menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgK-kw-SSO">
-                                <rect key="frame" x="118" y="95" width="138" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is main View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgK-kw-SSO">
+                                <rect key="frame" x="118" y="95" width="132" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -314,12 +312,17 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tRi-Dh-fYT"/>
                     </view>
                     <toolbarItems>
                         <barButtonItem title="Item" id="bqy-XX-EqH"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="p8Q-Jm-AXH">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="v7m-Ki-BJu"/>
+                        <barButtonItem key="leftBarButtonItem" title="More" id="v7m-Ki-BJu">
+                            <connections>
+                                <action selector="onMoreTapped" destination="8kQ-AO-nt0" id="HXi-25-xbt"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>

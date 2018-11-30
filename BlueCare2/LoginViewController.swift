@@ -14,7 +14,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var userLoginField: UITextField!    
     @IBOutlet weak var userPasswordField: UITextField!
     
-    @IBOutlet weak var label: UILabel!
+ 
     
     
 //    var name = "Samaneh"

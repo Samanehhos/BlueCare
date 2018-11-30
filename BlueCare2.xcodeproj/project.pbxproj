@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012C7A2921B098FC00988BCA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C7A2821B098FC00988BCA /* MainVC.swift */; };
 		01D2645421AA32040003DEE1 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2645321AA32040003DEE1 /* SideMenuVC.swift */; };
 		01DCF94A21A7445200C79D1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01DCF94921A7445200C79D1D /* GoogleService-Info.plist */; };
 		01DCF94C21A7484E00C79D1D /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCF94B21A7484E00C79D1D /* FirebaseReference.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		012B750D21A6385C00734346 /* BlueCare2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueCare2.entitlements; sourceTree = "<group>"; };
+		012C7A2821B098FC00988BCA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		01D2645321AA32040003DEE1 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		01DCF94921A7445200C79D1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		01DCF94B21A7484E00C79D1D /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				C909D5B721979F5600241654 /* LoginViewController.swift */,
 				C909D5E32197B7E600241654 /* NotificationsViewController.swift */,
 				01D2645321AA32040003DEE1 /* SideMenuVC.swift */,
+				012C7A2821B098FC00988BCA /* MainVC.swift */,
 				C909D5B921979F5600241654 /* Main.storyboard */,
 				C909D5BC21979F5600241654 /* Assets.xcassets */,
 				C909D5BE21979F5600241654 /* LaunchScreen.storyboard */,
@@ -422,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C909D5E42197B7E600241654 /* NotificationsViewController.swift in Sources */,
+				012C7A2921B098FC00988BCA /* MainVC.swift in Sources */,
 				C909D5B821979F5600241654 /* LoginViewController.swift in Sources */,
 				01DCF94C21A7484E00C79D1D /* FirebaseReference.swift in Sources */,
 				C909D5B621979F5600241654 /* AppDelegate.swift in Sources */,
